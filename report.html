@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>E-school</title>
+  </head>
+  <body>
+
+
+<!-- FALTUU KA NAVBAR
+ -->
+
+<!-- <div >
+  <nav class="navbar navbar-expand-lg bg-primary py-2 " id="main-nav">
+      <div class="container-fluid navup">
+      
+        <button  data-aos="fade-left" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+       <ul class="navbar-nav ml-auto">
+           
+            <li class="nav-item">
+              <a href="#" class="nav-link"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div> -->
+
+
+
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+
+ <!-- LEFT TAB ITEMS -->
+
+
+      <div class="col-sm-2 p-0 m-0 section-one " id="sx">
+        <div class="d-flex flex-column justify-content-around" style="height: 100vh">
+          <div class="display-4 m-2 align-self-center">LOGO</div>
+          <div class=" text-white text-center navleft">
+          <a  href="index.html"><div class="p-4 bg-primary navitem"><i class="fas fa-home fa-2x d-block p-1"></i><span>HOME</span></div></a>
+          <a href="assign.html"><div class="p-4 bg-primary navitem"><i class="fas fa-clipboard-list fa-2x d-block p-1"></i><span>ASSIGNMENT</span></div></a>
+          <a  href="quiz.html"><div class="p-4 bg-primary navitem"><i class="fas fa-book fa-2x d-block p-1"></i><span>QUIZ</span></div></a>
+          <a href="report.html" class="active" ><div class="p-4 bg-primary navitem"><i class="fas fa-chart-pie fa-2x d-block p-1"></i><span>REPORT</span></div></a>
+          <a href="home.html"><div class="p-4 bg-primary navitem"><i class="fas fa-sign-out-alt fa-2x d-block p-1"></i><span>LOGOUT</span></div></a>
+        </div>
+         </div>
+
+      </div>
+
+
+
+
+      <!-- MIDDLE TAB ITEMS  -->
+
+
+      
+      <div class="col-sm-7 section-two "  >
+
+        <div class="d-flex flex-column"> 
+         <div class="d-flex flex-row justify-content-between">
+          <div class=" my-auto"><h3>View Report</h3></div>
+            <a href="#" data-toggle="modal" data-target="#exampleModal"><div class="p-2 bg-success navitem text-center text-white mr-3 w-100" ><i class="fas fa-plus fa-2x d-block p-1 "></i><span>ADD CLASS</span></div></a>
+
+          
+  
+
+          
+          </div>
+
+          <br>
+          <hr class="m-0">
+
+
+        <!-- UPCOMING LIVE CLASSES -->
+
+         <div id="sy">
+          <div class="upcome m-3">
+            <div class="sclass bg-info text-white p-2 text-center mb-1"><i class="far fa-calendar fa-2x float-left"></i> <span>Upcoming Live classes</span></div>
+
+
+            <table class="table-sm w-100 text-justify m-0 my-2 ">
+  <thead>
+    <tr class="table-danger">
+      <th scope="col"><h5>19/4/20</h5></th>
+      <th scope="col"><h5>Class: 10</h5></th>
+      <th scope="col"><h5>Section: A</h5></th>
+      <th scope="col"><h5>Subject: Maths</h5></th>
+      <th scope="col"><a href="#" class="btn btn-primary">JOIN CLASS</a></th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <td ><h5>12:00 AM</h5></td>
+      <td colspan="2"> 
+        <div class="form-group">
+  <!-- <label for="comment">Description:</label> -->
+  <textarea placeholder="Enter Class Description" class="form-control" rows="2" id="comment"></textarea>
+</div>
+      </td>
+      <td><a href="#" class="btn btn-secondary ">MY CONTENT</a></td>
+      <td><a href="#" class="btn btn-info mb-2">ADD QUIZ</a>
+      <a href="#" class="btn btn-info">NOTIFY CLASS</a></td> </tr>
+     
+  </tbody>
+</table>
+
+
+
+
+
+
+<table class="table-sm w-100 text-justify m-0 my-2">
+  <thead>
+    <tr class="table-danger">
+      <th scope="col"><h5>19/4/20</h5></th>
+      <th scope="col"><h5>Class: 10</h5></th>
+      <th scope="col"><h5>Section: A</h5></th>
+      <th scope="col"><h5>Subject: Maths</h5></th>
+      <th scope="col"><a href="#" class="btn btn-primary">JOIN CLASS</a></th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <td ><h5>12:00 AM</h5></td>
+      <td colspan="2"> 
+        <div class="form-group">
+  <!-- <label for="comment">Description:</label> -->
+  <textarea placeholder="Enter Class Description" class="form-control" rows="2" id="comment"></textarea>
+</div>
+      </td>
+      <td><a href="#" class="btn btn-secondary ">MY CONTENT</a></td>
+      <td><a href="#" class="btn btn-info mb-2">ADD QUIZ</a>
+      <a href="#" class="btn btn-info">NOTIFY CLASS</a></td> </tr>
+     
+  </tbody>
+</table>
+            
+<!-- PAST LIVE CLASSES -->
+
+
+          </div>
+          <div class="past m-3">
+            <div class="sclass bg-info text-white p-2 text-center mb-1"><i class="far fa-calendar-check fa-2x float-left"></i> <span>Past Live classes</span></div>
+
+
+            <table class="table-sm w-100 text-justify m-0 my-2">
+  <thead>
+    <tr class="table-warning">
+      <th scope="col"><h5>19/4/20</h5></th>
+      <th scope="col"><h5>Class: 10</h5></th>
+      <th scope="col"><h5>Section: A</h5></th>
+      <th scope="col"><h5>Subject: Maths</h5></th>
+      <th scope="col"><a href="#" class="btn btn-primary">VIEW RECORD</a></th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <td ><h5>12:00 AM</h5></td>
+      <td colspan="2"> 
+        <div class="form-group">
+  <!-- <label for="comment">Description:</label> -->
+  <textarea placeholder="Enter Class Description" class="form-control" rows="2" id="comment"></textarea>
+</div>
+      </td>
+      <td><a href="#" class="btn btn-secondary ">MY CONTENT</a></td>
+      <td><a href="#" class="btn btn-info mb-2">ADD QUIZ</a>
+      <a href="#" class="btn btn-info">REPORT</a></td> </tr>
+     
+  </tbody>
+</table>
+
+
+
+
+
+
+
+<table class="table-sm w-100 text-justify m-0 my-2">
+  <thead>
+    <tr class="table-warning">
+      <th scope="col"><h5>19/4/20</h5></th>
+      <th scope="col"><h5>Class: 10</h5></th>
+      <th scope="col"><h5>Section: A</h5></th>
+      <th scope="col"><h5>Subject: Maths</h5></th>
+      <th scope="col"><a href="#" class="btn btn-primary">VIEW RECORD</a></th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <td ><h5>12:00 AM</h5></td>
+      <td colspan="2"> 
+        <div class="form-group">
+  <!-- <label for="comment">Description:</label> -->
+  <textarea placeholder="Enter Class Description" class="form-control" rows="2" id="comment"></textarea>
+</div>
+      </td>
+      <td><a href="#" class="btn btn-secondary ">MY CONTENT</a></td>
+      <td><a href="#" class="btn btn-info mb-2">ADD QUIZ</a>
+      <a href="#" class="btn btn-info">REPORT</a></td> </tr>
+     
+  </tbody>
+</table>
+            
+
+          </div>
+        </div>
+
+
+        </div>
+        
+
+
+      </div>
+      
+
+
+<!--  Right MOST TAB  -->
+
+      <div class="col-sm-3 section-tre " id="sz">
+        <div class="d-flex flex-column ">
+          <div class=" text-white text-center navleft ">
+          <div class="p-2 bg-danger navitem w-50 float-right"><i class="fas fa-question fa-2x d-block p-1"></i><span>HELP!!</span></div>
+          
+         </div>
+
+
+
+<!-- Teacher's CARD -->
+         <div class="teachers">
+           <div class="card tcard">
+  <div class="card-header"><h4>Your Profile</h4></div>
+  <div class="card-block">
+    <div class="timage ">
+   
+      <img src="photo.jpeg" class="img-fluid"></div>
+    <h5 class="tname"> Teacher Name</h5><hr>
+    <div class="tsub">
+    <h5> Subjects:</h5>
+    <ul>
+      <li>SUB-1</li>
+      <li>SUB-2</li>
+      <li>SUB-3</li>
+
+    </ul>
+    <hr>
+
+    </div>
+    <h5 class="tsch"> School Name</h5>
+    
+  </div>
+</div>
+
+         </div>
+        
+
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter Class Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label >Class</label> 
+      <input type="text" class="form-control" name="class" placeholder="Enter class">
+    </div>
+    <div class="form-group col-md-6">
+      <label >Section</label> 
+      <input type="text" class="form-control" name="section" placeholder="Enter section">
+    </div>
+  </div>
+   <div class="form-group">
+    <label >Subject</label> 
+      <input type="text" class="form-control" name="subject" placeholder="Enter subject name">
+  </div>
+  <div class="form-group">
+    <label >Enter Class URL</label> 
+      <input type="text" class="form-control" name="url" placeholder="Enter link">
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- <div class="navbar">
+      <div class="menu">
+        <ul>
+          <li><i class="fas fa-home"></i><span>Home</span></li>
+          <li><i class="fas fa-home"></i><span>Assignment</span></li>
+          <li><i class="fas fa-home"></i><span>Quiz</span></li>
+          <li><i class="fas fa-home"></i><span>Report</span></li>
+        </ul>
+      </div>
+    </div> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

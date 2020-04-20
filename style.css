@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.navleft{
+	box-shadow: 5px 5px 8px 1px #eee;
+
+}
+.navitem:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.navup a{
+	color: white;
+}
+.section-two h3{
+	font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
+.section-two h5{
+	font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.section-two div.sclass{
+	color:white;
+	border-radius:10px;
+}
+
+.section-two table{
+	border-left-width:6px;
+	border-right-width:6px;
+	border-radius:5px;
+	margin: 0px;
+	color: black;
+	text-align: center;
+	box-shadow: 5px 5px 8px 1px #eee;
+
+
+}
+.section-two table th{
+padding: 4px;	
+}
+.section-two table td{
+	padding: 4px;
+}
+
+
+
+.card.tcard{
+	margin-top:25px;
+	text-align: center;
+	
+}
+.section-tre div.card-block{
+padding: 25px;
+
+}
+
+.section-tre div li{
+	list-style: none;
+
+
+}
+.section-tre div.timage{
+	overflow:hidden;
+	width: 150px;
+	background-color: black;
+	border-radius: 50%;
+	margin: auto;
+	}
+
+.section-one div span{
+ font-size: 18px;
+
+}
+.section-one div a{
+ text-decoration: none;
+ display: block;
+ color: white;
+
+}
+
+
+.sclass span{
+ font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+.section-one{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+
+}
+#sy{
+	height:84vh;
+	overflow: scroll;
+	
+}
+#sy::-webkit-scrollbar { width: 0 !important }
+
+.section-one div a.active{
+	opacity: 0.8;
+
+}
+
+.section-tre div span{
+	font-size: 16px;
+}
+
+.section-two .navitem span{
+	font-size: 16px;
+
+}
+
+.section-two div a{
+ text-decoration: none;
+ display: block;
+ color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
